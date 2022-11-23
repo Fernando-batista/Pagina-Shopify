@@ -1,0 +1,81 @@
+:root {
+    --var--color-main : #008060 ;
+    --var--color-datalhe : #212326
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    max-width: 100vw;
+}
+/*start main center*/
+#main-center {
+    max-width: 100vw;
+    height: 100vh;
+    background-color: var(--var--color-main);
+    padding: 20px;
+}
+#main-center #box-center {
+   max-width: 650px;
+   margin: auto;
+}
+#main-center #box-center img{
+    display: block;
+    max-width: 150px;
+    margin: 0px auto;
+}
+#main-center #box-center h1 {
+    font-size: 2.8rem;
+    color: white;
+    text-align: center;
+}
+#main-center #box-center h2 {
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    font-weight: 450;
+    margin: 25px 0px;
+}
+#main-center #box-center #content-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#content-email {
+    max-width: 600px;
+    margin: 0px auto;
+}
+#content-email #email {
+    font-size: 1.2rem;
+}
+.size {
+    width: 85%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin: 4px 0px;
+}
+#btclick {
+    background-color: var(--var--color-datalhe);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btclick label {
+    color: white;
+    font-size: 1.1rem;
+}
+#content-email p {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 20px;
+    margin-top: 5px;
+}
+/*end main-center*/
